@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(30, 123, 216);
+}
+
+
+.counterContainer {
+    min-width: 250px;
+    min-height: 250px;
+    background: rgb(255, 247, 0);
+    padding: 50px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.counterHeading {
+    color: rgb(38, 31, 31);
+    font-size: 35px;
+    padding: 20px 0;
+}
+
+.counter {
+    color: rgb(38, 31, 31);
+    font-size: 55px;
+}
+
+
+.btn {
+    padding: 20px;
+    border-radius: 20px;
+    outline: transparent;
+    border: transparent;
+    color: rgb(38, 31, 31);
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+    box-shadow: 3px 3px 3px rgb(0, 0, 0, 0.2);
+}
+
+
+
+@media only screen and (max-width: 900px) {
+
+    .counterContainer {
+        min-width: 150px;
+        min-height: 150px;
+        padding: 40px;
+        border-radius: 15px;
+    }
+
+    .counterHeading {
+        font-size: 30px;
+        padding: 15px 0;
+        
+    }
+
+    .counter {
+        font-size: 40px;
+    }
+
+
+    .btn {
+        padding: 15px;
+        border-radius: 20px;
+        font-size: 15px;
+        margin: 8px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .counterContainer {
+        min-width: 75px;
+        min-height: 75px;
+        padding: 30px;
+        border-radius: 15px;
+    }
+
+    .counterHeading {
+        font-size: 25px;
+        padding: 10px 0;
+    }
+
+    .counter {
+        font-size: 35px;
+    }
+
+
+    .btn {
+        padding: 15px;
+        border-radius: 20px;
+        font-size: 15px;
+        margin: 8px;
+    }
+}
